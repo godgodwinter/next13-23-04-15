@@ -5,7 +5,7 @@ function RecoilLayout({ children }) {
   return (
     <FeaturesLayout>
       {" "}
-      <div className="prose-lg py-4">
+      <div className="prose-lg py-4 boder-b-2 border-slate-200">
         <h2>State with Recoil</h2>
         <p>
           This case i make data store state on @/store/CounterStore.js
