@@ -40,13 +40,19 @@ function Navbar() {
             <Link href="/">Home</Link>
           </li>
           <li>
+            <Link href="/cv">Resume</Link>
+          </li>
+          <li>
             <Link href="/showcase">Showcase</Link>
           </li>
           <li>
-            <Link href="/about">About</Link>
+            <Link href="/features">Features</Link>
           </li>
           <li>
-            <Link href="/features">Features</Link>
+            <Link href="/progress">Progress</Link>
+          </li>
+          <li>
+            <Link href="/about">About</Link>
           </li>
         </ul>
       </div>
@@ -54,7 +60,7 @@ function Navbar() {
         {" "}
         <a
           className="btn btn-ghost border-separate border-2 border-slate-400 space-x-2"
-          href="https://github.com/godgodwinter"
+          href="https://github.com/godgodwinter/next13-23-04-15"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
