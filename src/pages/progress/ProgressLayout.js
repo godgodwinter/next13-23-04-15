@@ -3,8 +3,11 @@ import Layout from "@/components/layout";
 function ProgressLayout({ children }) {
   return (
     <Layout>
-      <div>
-        <div className="flex justify-center space-x-4 border-solid border-2 border-slate-200">
+      <div className="border-solid border-2 border-slate-200">
+        <div className="prose text-center">
+          <p>this features isnt ready.</p>
+        </div>
+        <div className="flex justify-center space-x-4 ">
           <div className="my-12 grid gap-x-8 gap-y-5 grid-cols-2 md:grid-cols-3">
             <div className="flex gap-1 items-center">
               ❌ DataTable : react-data-table-component

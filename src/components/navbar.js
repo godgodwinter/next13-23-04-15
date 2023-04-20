@@ -46,7 +46,7 @@ function Navbar() {
             <Link href="/showcase">Showcase</Link>
           </li>
           <li>
-            <Link href="/features">Features</Link>
+            <Link href="/features/moment">Features</Link>
           </li>
           <li>
             <Link href="/progress">Progress</Link>

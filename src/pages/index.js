@@ -48,13 +48,16 @@ export default function Home() {
             </h2>{" "}
             <h3 className="mb-5 text-3xl font-bold">Fullstack web developer</h3>{" "}
             <p className="mx-auto mb-5 w-full max-w-lg">
-              Dont reinvent the wheel! <br />
-              daisyUI adds classes to Tailwind CSS for all common UI components.
-              Classes like <span className="badge badge-outline">
-                btn
-              </span>, <span className="badge badge-outline">card</span>, etc.
-              This allows us to focus on important things instead of making
-              basic elements for every project.
+              This web made with NextJS 13 <br />
+              Feel free to use just get it on my &nbsp;
+              <a
+                href="https://github.com/godgodwinter/next13-23-04-15"
+                target={`_blank`}
+              >
+                <span className="badge badge-outline">GITHUB</span>
+              </a>
+              . Some example on this project : Toast, Routing, State Management
+              (Recoil), Styling with Tailwindcss and daisyUI, Momentjs etc.
             </p>{" "}
             <p className="mx-auto mt-20 w-full max-w-lg"></p>{" "}
             <div className="font-bold">Creating a button</div> using only
