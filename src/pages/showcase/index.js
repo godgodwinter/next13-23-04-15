@@ -95,14 +95,14 @@ export default function Showcase() {
           </div>
         </div>
 
-        {/* <div className="px-10 flex justify-center">
+        <div className="px-10 flex justify-center">
           <div className="w-10/12">
             <div className="grid grid-cols-3 space-x-1">
               <div className="grid-cols-1">
                 <div>
-                  <div  className="py-4">
+                  <div className="py-4">
                     <div
-                       className="shadow-lg group container  rounded-md bg-white  max-w-sm flex justify-center items-center  mx-auto content-div"
+                      className="shadow-lg group container  rounded-md bg-white  max-w-sm flex justify-center items-center  mx-auto content-div"
                       style={{
                         backgroundImage: `url(${bg.src})`,
                         backgroundRepeat: `no-repeat`,
@@ -114,24 +114,24 @@ export default function Showcase() {
                     >
                       <div>
                         <div
-                           className="w-full image-cover rounded-t-md"
+                          className="w-full image-cover rounded-t-md"
                           style={{ height: `260px` }}
                         >
-                          <div  className="p-2 m-4 w-16 h-16 text-center bg-gray-700 rounded-full text-white float-right fd-cl group-hover:opacity-25">
-                            <span  className="text-base tracking-wide  font-bold border-b border-white font-sans">
+                          <div className="p-2 m-4 w-16 h-16 text-center bg-gray-700 rounded-full text-white float-right fd-cl group-hover:opacity-25">
+                            <span className="text-base tracking-wide  font-bold border-b border-white font-sans">
                               {" "}
                               12
                             </span>
-                            <span  className="text-xs tracking-wide font-bold uppercase block font-sans">
+                            <span className="text-xs tracking-wide font-bold uppercase block font-sans">
                               April
                             </span>
                           </div>
                         </div>
-                        <div  className="py-8 px-4 bg-white  rounded-b-md fd-cl group-hover:opacity-25">
-                          <span  className="block text-lg text-gray-800 font-bold tracking-wide">
+                        <div className="py-8 px-4 bg-white  rounded-b-md fd-cl group-hover:opacity-25">
+                          <span className="block text-lg text-gray-800 font-bold tracking-wide">
                             Project 1
                           </span>
-                          <span  className="block text-gray-600 text-sm">
+                          <span className="block text-gray-600 text-sm">
                             Vivamus ac ligula sit amet erat luctus laoreet ac
                             quis ligula. Donec bibendum faucibus purus eget
                             cursus. Proin enim ante, scelerisque vel sem sit
@@ -140,17 +140,17 @@ export default function Showcase() {
                           </span>
                         </div>
                       </div>
-                      <div  className="absolute opacity-0 fd-sh group-hover:opacity-100 ">
+                      <div className="absolute opacity-0 fd-sh group-hover:opacity-100 ">
                         <div className="h-full w-full flex-col justify-end ">
                           <div>
-                            <span  className="text-3xl font-bold text-white tracking-wider leading-relaxed font-sans  w-full">
+                            <span className="text-3xl font-bold text-white tracking-wider leading-relaxed font-sans  w-full">
                               Project 1
                             </span>
-                            <div  className="pt-8 text-center space-x-4">
-                              <button  className="border-2 bg-white border-slate-200 py-2 px-4 rounded-md hover:bg-slate-400">
+                            <div className="pt-8 text-center space-x-4">
+                              <button className="border-2 bg-white border-slate-200 py-2 px-4 rounded-md hover:bg-slate-400">
                                 Preview
                               </button>
-                              <button  className="border-2 bg-white border-slate-200 py-2 px-4 rounded-md hover:bg-slate-400">
+                              <button className="border-2 bg-white border-slate-200 py-2 px-4 rounded-md hover:bg-slate-400">
                                 Source Code
                               </button>
                             </div>
@@ -163,9 +163,9 @@ export default function Showcase() {
               </div>
               <div className="grid-cols-1">
                 <div>
-                  <div  className="py-4">
+                  <div className="py-4">
                     <div
-                       className="shadow-lg group container  rounded-md bg-white  max-w-sm flex justify-center items-center  mx-auto content-div"
+                      className="shadow-lg group container  rounded-md bg-white  max-w-sm flex justify-center items-center  mx-auto content-div"
                       style={{
                         backgroundImage: `url(${bg.src})`,
                         backgroundRepeat: `no-repeat`,
@@ -177,24 +177,24 @@ export default function Showcase() {
                     >
                       <div>
                         <div
-                           className="w-full image-cover rounded-t-md"
+                          className="w-full image-cover rounded-t-md"
                           style={{ height: `260px` }}
                         >
-                          <div  className="p-2 m-4 w-16 h-16 text-center bg-gray-700 rounded-full text-white float-right fd-cl group-hover:opacity-25">
-                            <span  className="text-base tracking-wide  font-bold border-b border-white font-sans">
+                          <div className="p-2 m-4 w-16 h-16 text-center bg-gray-700 rounded-full text-white float-right fd-cl group-hover:opacity-25">
+                            <span className="text-base tracking-wide  font-bold border-b border-white font-sans">
                               {" "}
                               12
                             </span>
-                            <span  className="text-xs tracking-wide font-bold uppercase block font-sans">
+                            <span className="text-xs tracking-wide font-bold uppercase block font-sans">
                               April
                             </span>
                           </div>
                         </div>
-                        <div  className="py-8 px-4 bg-white  rounded-b-md fd-cl group-hover:opacity-25">
-                          <span  className="block text-lg text-gray-800 font-bold tracking-wide">
+                        <div className="py-8 px-4 bg-white  rounded-b-md fd-cl group-hover:opacity-25">
+                          <span className="block text-lg text-gray-800 font-bold tracking-wide">
                             Project 1
                           </span>
-                          <span  className="block text-gray-600 text-sm">
+                          <span className="block text-gray-600 text-sm">
                             Vivamus ac ligula sit amet erat luctus laoreet ac
                             quis ligula. Donec bibendum faucibus purus eget
                             cursus. Proin enim ante, scelerisque vel sem sit
@@ -203,17 +203,17 @@ export default function Showcase() {
                           </span>
                         </div>
                       </div>
-                      <div  className="absolute opacity-0 fd-sh group-hover:opacity-100 ">
+                      <div className="absolute opacity-0 fd-sh group-hover:opacity-100 ">
                         <div className="h-full w-full flex-col justify-end ">
                           <div>
-                            <span  className="text-3xl font-bold text-white tracking-wider leading-relaxed font-sans  w-full">
+                            <span className="text-3xl font-bold text-white tracking-wider leading-relaxed font-sans  w-full">
                               Project 1
                             </span>
-                            <div  className="pt-8 text-center space-x-4">
-                              <button  className="border-2 bg-white border-slate-200 py-2 px-4 rounded-md hover:bg-slate-400">
+                            <div className="pt-8 text-center space-x-4">
+                              <button className="border-2 bg-white border-slate-200 py-2 px-4 rounded-md hover:bg-slate-400">
                                 Preview
                               </button>
-                              <button  className="border-2 bg-white border-slate-200 py-2 px-4 rounded-md hover:bg-slate-400">
+                              <button className="border-2 bg-white border-slate-200 py-2 px-4 rounded-md hover:bg-slate-400">
                                 Source Code
                               </button>
                             </div>
@@ -226,9 +226,9 @@ export default function Showcase() {
               </div>
               <div className="grid-cols-1">
                 <div>
-                  <div  className="py-4">
+                  <div className="py-4">
                     <div
-                       className="shadow-lg group container  rounded-md bg-white  max-w-sm flex justify-center items-center  mx-auto content-div"
+                      className="shadow-lg group container  rounded-md bg-white  max-w-sm flex justify-center items-center  mx-auto content-div"
                       style={{
                         backgroundImage: `url(${bg.src})`,
                         backgroundRepeat: `no-repeat`,
@@ -240,24 +240,24 @@ export default function Showcase() {
                     >
                       <div>
                         <div
-                           className="w-full image-cover rounded-t-md"
+                          className="w-full image-cover rounded-t-md"
                           style={{ height: `260px` }}
                         >
-                          <div  className="p-2 m-4 w-16 h-16 text-center bg-gray-700 rounded-full text-white float-right fd-cl group-hover:opacity-25">
-                            <span  className="text-base tracking-wide  font-bold border-b border-white font-sans">
+                          <div className="p-2 m-4 w-16 h-16 text-center bg-gray-700 rounded-full text-white float-right fd-cl group-hover:opacity-25">
+                            <span className="text-base tracking-wide  font-bold border-b border-white font-sans">
                               {" "}
                               12
                             </span>
-                            <span  className="text-xs tracking-wide font-bold uppercase block font-sans">
+                            <span className="text-xs tracking-wide font-bold uppercase block font-sans">
                               April
                             </span>
                           </div>
                         </div>
-                        <div  className="py-8 px-4 bg-white  rounded-b-md fd-cl group-hover:opacity-25">
-                          <span  className="block text-lg text-gray-800 font-bold tracking-wide">
+                        <div className="py-8 px-4 bg-white  rounded-b-md fd-cl group-hover:opacity-25">
+                          <span className="block text-lg text-gray-800 font-bold tracking-wide">
                             Project 1
                           </span>
-                          <span  className="block text-gray-600 text-sm">
+                          <span className="block text-gray-600 text-sm">
                             Vivamus ac ligula sit amet erat luctus laoreet ac
                             quis ligula. Donec bibendum faucibus purus eget
                             cursus. Proin enim ante, scelerisque vel sem sit
@@ -266,17 +266,17 @@ export default function Showcase() {
                           </span>
                         </div>
                       </div>
-                      <div  className="absolute opacity-0 fd-sh group-hover:opacity-100 ">
+                      <div className="absolute opacity-0 fd-sh group-hover:opacity-100 ">
                         <div className="h-full w-full flex-col justify-end ">
                           <div>
-                            <span  className="text-3xl font-bold text-white tracking-wider leading-relaxed font-sans  w-full">
+                            <span className="text-3xl font-bold text-white tracking-wider leading-relaxed font-sans  w-full">
                               Project 1
                             </span>
-                            <div  className="pt-8 text-center space-x-4">
-                              <button  className="border-2 bg-white border-slate-200 py-2 px-4 rounded-md hover:bg-slate-400">
+                            <div className="pt-8 text-center space-x-4">
+                              <button className="border-2 bg-white border-slate-200 py-2 px-4 rounded-md hover:bg-slate-400">
                                 Preview
                               </button>
-                              <button  className="border-2 bg-white border-slate-200 py-2 px-4 rounded-md hover:bg-slate-400">
+                              <button className="border-2 bg-white border-slate-200 py-2 px-4 rounded-md hover:bg-slate-400">
                                 Source Code
                               </button>
                             </div>
@@ -289,7 +289,7 @@ export default function Showcase() {
               </div>
             </div>
           </div>
-        </div> */}
+        </div>
 
         <div>
           <div className="py-4">
