@@ -4,10 +4,10 @@ import Image from "next/image";
 function About() {
   return (
     <Layout>
-      <div class="hero min-h-screen ">
-        <div class="hero-content text-center">
-          <div class="max-w-md">
-            <h1 class="text-5xl font-bold">Hello there</h1>
+      <div className="hero min-h-screen ">
+        <div className="hero-content text-center">
+          <div className="max-w-md">
+            <h1 className="text-5xl font-bold">Hello there</h1>
             <Image
               src="/img/rust-wpp.png"
               alt="Picture of the author"
@@ -16,15 +16,15 @@ function About() {
               priority
               quality={50}
             />
-            <p class="py-6">
+            <p className="py-6">
               Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
               excepturi exercitationem quasi. In deleniti eaque aut repudiandae
               et a id nisi.
             </p>
-            <button class="btn btn-primary">Get Started</button>
-            <button class="group relative h-12 w-48 overflow-hidden rounded-lg bg-white text-lg shadow">
-              <div class="absolute inset-0 w-3 bg-amber-400 transition-all duration-[250ms] ease-out group-hover:w-full"></div>
-              <span class="relative text-black group-hover:text-white">
+            <button className="btn btn-primary">Get Started</button>
+            <button className="group relative h-12 w-48 overflow-hidden rounded-lg bg-white text-lg shadow">
+              <div className="absolute inset-0 w-3 bg-amber-400 transition-all duration-[250ms] ease-out group-hover:w-full"></div>
+              <span className="relative text-black group-hover:text-white">
                 Hover me!
               </span>
             </button>

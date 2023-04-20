@@ -7,7 +7,7 @@ function DateNow() {
     setTgl(moment().format("MMMM Do YYYY, h:mm:ss a"));
   }, []);
 
-  return <> {tgl}</>;
+  return <>{tgl}</>;
 }
 
 export default DateNow;

@@ -19,11 +19,7 @@ function FeaturesLayout({ children }) {
               >
                 <path d="m6 9 3 3 5-5" stroke="#A2724E" strokeWidth="2"></path>
               </svg>
-              <div
-                className={({ isActive, isPending }) =>
-                  isActive ? "active" : isPending ? "pending" : ""
-                }
-              >
+              <div>
                 <span className="font-bold">Toast : react-hot-toast</span>
               </div>
             </Link>
@@ -69,11 +65,7 @@ function FeaturesLayout({ children }) {
               >
                 <path d="m6 9 3 3 5-5" stroke="#A2724E" strokeWidth="2"></path>
               </svg>
-              <div
-                className={({ isActive, isPending }) =>
-                  isActive ? "active" : isPending ? "pending" : ""
-                }
-              >
+              <div>
                 <span className="font-bold">Datetime : Momentjs</span>
               </div>
             </Link>

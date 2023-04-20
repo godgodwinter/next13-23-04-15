@@ -95,14 +95,14 @@ export default function Showcase() {
           </div>
         </div>
 
-        <div className="px-10 flex justify-center">
+        {/* <div className="px-10 flex justify-center">
           <div className="w-10/12">
             <div className="grid grid-cols-3 space-x-1">
               <div className="grid-cols-1">
                 <div>
-                  <div class="py-4">
+                  <div  className="py-4">
                     <div
-                      class="shadow-lg group container  rounded-md bg-white  max-w-sm flex justify-center items-center  mx-auto content-div"
+                       className="shadow-lg group container  rounded-md bg-white  max-w-sm flex justify-center items-center  mx-auto content-div"
                       style={{
                         backgroundImage: `url(${bg.src})`,
                         backgroundRepeat: `no-repeat`,
@@ -114,24 +114,24 @@ export default function Showcase() {
                     >
                       <div>
                         <div
-                          class="w-full image-cover rounded-t-md"
+                           className="w-full image-cover rounded-t-md"
                           style={{ height: `260px` }}
                         >
-                          <div class="p-2 m-4 w-16 h-16 text-center bg-gray-700 rounded-full text-white float-right fd-cl group-hover:opacity-25">
-                            <span class="text-base tracking-wide  font-bold border-b border-white font-sans">
+                          <div  className="p-2 m-4 w-16 h-16 text-center bg-gray-700 rounded-full text-white float-right fd-cl group-hover:opacity-25">
+                            <span  className="text-base tracking-wide  font-bold border-b border-white font-sans">
                               {" "}
                               12
                             </span>
-                            <span class="text-xs tracking-wide font-bold uppercase block font-sans">
+                            <span  className="text-xs tracking-wide font-bold uppercase block font-sans">
                               April
                             </span>
                           </div>
                         </div>
-                        <div class="py-8 px-4 bg-white  rounded-b-md fd-cl group-hover:opacity-25">
-                          <span class="block text-lg text-gray-800 font-bold tracking-wide">
+                        <div  className="py-8 px-4 bg-white  rounded-b-md fd-cl group-hover:opacity-25">
+                          <span  className="block text-lg text-gray-800 font-bold tracking-wide">
                             Project 1
                           </span>
-                          <span class="block text-gray-600 text-sm">
+                          <span  className="block text-gray-600 text-sm">
                             Vivamus ac ligula sit amet erat luctus laoreet ac
                             quis ligula. Donec bibendum faucibus purus eget
                             cursus. Proin enim ante, scelerisque vel sem sit
@@ -140,17 +140,17 @@ export default function Showcase() {
                           </span>
                         </div>
                       </div>
-                      <div class="absolute opacity-0 fd-sh group-hover:opacity-100 ">
+                      <div  className="absolute opacity-0 fd-sh group-hover:opacity-100 ">
                         <div className="h-full w-full flex-col justify-end ">
-                          <div className="">
-                            <span class="text-3xl font-bold text-white tracking-wider leading-relaxed font-sans  w-full">
+                          <div>
+                            <span  className="text-3xl font-bold text-white tracking-wider leading-relaxed font-sans  w-full">
                               Project 1
                             </span>
-                            <div class="pt-8 text-center space-x-4">
-                              <button class="border-2 bg-white border-slate-200 py-2 px-4 rounded-md hover:bg-slate-400">
+                            <div  className="pt-8 text-center space-x-4">
+                              <button  className="border-2 bg-white border-slate-200 py-2 px-4 rounded-md hover:bg-slate-400">
                                 Preview
                               </button>
-                              <button class="border-2 bg-white border-slate-200 py-2 px-4 rounded-md hover:bg-slate-400">
+                              <button  className="border-2 bg-white border-slate-200 py-2 px-4 rounded-md hover:bg-slate-400">
                                 Source Code
                               </button>
                             </div>
@@ -163,9 +163,9 @@ export default function Showcase() {
               </div>
               <div className="grid-cols-1">
                 <div>
-                  <div class="py-4">
+                  <div  className="py-4">
                     <div
-                      class="shadow-lg group container  rounded-md bg-white  max-w-sm flex justify-center items-center  mx-auto content-div"
+                       className="shadow-lg group container  rounded-md bg-white  max-w-sm flex justify-center items-center  mx-auto content-div"
                       style={{
                         backgroundImage: `url(${bg.src})`,
                         backgroundRepeat: `no-repeat`,
@@ -177,24 +177,24 @@ export default function Showcase() {
                     >
                       <div>
                         <div
-                          class="w-full image-cover rounded-t-md"
+                           className="w-full image-cover rounded-t-md"
                           style={{ height: `260px` }}
                         >
-                          <div class="p-2 m-4 w-16 h-16 text-center bg-gray-700 rounded-full text-white float-right fd-cl group-hover:opacity-25">
-                            <span class="text-base tracking-wide  font-bold border-b border-white font-sans">
+                          <div  className="p-2 m-4 w-16 h-16 text-center bg-gray-700 rounded-full text-white float-right fd-cl group-hover:opacity-25">
+                            <span  className="text-base tracking-wide  font-bold border-b border-white font-sans">
                               {" "}
                               12
                             </span>
-                            <span class="text-xs tracking-wide font-bold uppercase block font-sans">
+                            <span  className="text-xs tracking-wide font-bold uppercase block font-sans">
                               April
                             </span>
                           </div>
                         </div>
-                        <div class="py-8 px-4 bg-white  rounded-b-md fd-cl group-hover:opacity-25">
-                          <span class="block text-lg text-gray-800 font-bold tracking-wide">
+                        <div  className="py-8 px-4 bg-white  rounded-b-md fd-cl group-hover:opacity-25">
+                          <span  className="block text-lg text-gray-800 font-bold tracking-wide">
                             Project 1
                           </span>
-                          <span class="block text-gray-600 text-sm">
+                          <span  className="block text-gray-600 text-sm">
                             Vivamus ac ligula sit amet erat luctus laoreet ac
                             quis ligula. Donec bibendum faucibus purus eget
                             cursus. Proin enim ante, scelerisque vel sem sit
@@ -203,17 +203,17 @@ export default function Showcase() {
                           </span>
                         </div>
                       </div>
-                      <div class="absolute opacity-0 fd-sh group-hover:opacity-100 ">
+                      <div  className="absolute opacity-0 fd-sh group-hover:opacity-100 ">
                         <div className="h-full w-full flex-col justify-end ">
-                          <div className="">
-                            <span class="text-3xl font-bold text-white tracking-wider leading-relaxed font-sans  w-full">
+                          <div>
+                            <span  className="text-3xl font-bold text-white tracking-wider leading-relaxed font-sans  w-full">
                               Project 1
                             </span>
-                            <div class="pt-8 text-center space-x-4">
-                              <button class="border-2 bg-white border-slate-200 py-2 px-4 rounded-md hover:bg-slate-400">
+                            <div  className="pt-8 text-center space-x-4">
+                              <button  className="border-2 bg-white border-slate-200 py-2 px-4 rounded-md hover:bg-slate-400">
                                 Preview
                               </button>
-                              <button class="border-2 bg-white border-slate-200 py-2 px-4 rounded-md hover:bg-slate-400">
+                              <button  className="border-2 bg-white border-slate-200 py-2 px-4 rounded-md hover:bg-slate-400">
                                 Source Code
                               </button>
                             </div>
@@ -226,9 +226,9 @@ export default function Showcase() {
               </div>
               <div className="grid-cols-1">
                 <div>
-                  <div class="py-4">
+                  <div  className="py-4">
                     <div
-                      class="shadow-lg group container  rounded-md bg-white  max-w-sm flex justify-center items-center  mx-auto content-div"
+                       className="shadow-lg group container  rounded-md bg-white  max-w-sm flex justify-center items-center  mx-auto content-div"
                       style={{
                         backgroundImage: `url(${bg.src})`,
                         backgroundRepeat: `no-repeat`,
@@ -240,24 +240,24 @@ export default function Showcase() {
                     >
                       <div>
                         <div
-                          class="w-full image-cover rounded-t-md"
+                           className="w-full image-cover rounded-t-md"
                           style={{ height: `260px` }}
                         >
-                          <div class="p-2 m-4 w-16 h-16 text-center bg-gray-700 rounded-full text-white float-right fd-cl group-hover:opacity-25">
-                            <span class="text-base tracking-wide  font-bold border-b border-white font-sans">
+                          <div  className="p-2 m-4 w-16 h-16 text-center bg-gray-700 rounded-full text-white float-right fd-cl group-hover:opacity-25">
+                            <span  className="text-base tracking-wide  font-bold border-b border-white font-sans">
                               {" "}
                               12
                             </span>
-                            <span class="text-xs tracking-wide font-bold uppercase block font-sans">
+                            <span  className="text-xs tracking-wide font-bold uppercase block font-sans">
                               April
                             </span>
                           </div>
                         </div>
-                        <div class="py-8 px-4 bg-white  rounded-b-md fd-cl group-hover:opacity-25">
-                          <span class="block text-lg text-gray-800 font-bold tracking-wide">
+                        <div  className="py-8 px-4 bg-white  rounded-b-md fd-cl group-hover:opacity-25">
+                          <span  className="block text-lg text-gray-800 font-bold tracking-wide">
                             Project 1
                           </span>
-                          <span class="block text-gray-600 text-sm">
+                          <span  className="block text-gray-600 text-sm">
                             Vivamus ac ligula sit amet erat luctus laoreet ac
                             quis ligula. Donec bibendum faucibus purus eget
                             cursus. Proin enim ante, scelerisque vel sem sit
@@ -266,17 +266,17 @@ export default function Showcase() {
                           </span>
                         </div>
                       </div>
-                      <div class="absolute opacity-0 fd-sh group-hover:opacity-100 ">
+                      <div  className="absolute opacity-0 fd-sh group-hover:opacity-100 ">
                         <div className="h-full w-full flex-col justify-end ">
-                          <div className="">
-                            <span class="text-3xl font-bold text-white tracking-wider leading-relaxed font-sans  w-full">
+                          <div>
+                            <span  className="text-3xl font-bold text-white tracking-wider leading-relaxed font-sans  w-full">
                               Project 1
                             </span>
-                            <div class="pt-8 text-center space-x-4">
-                              <button class="border-2 bg-white border-slate-200 py-2 px-4 rounded-md hover:bg-slate-400">
+                            <div  className="pt-8 text-center space-x-4">
+                              <button  className="border-2 bg-white border-slate-200 py-2 px-4 rounded-md hover:bg-slate-400">
                                 Preview
                               </button>
-                              <button class="border-2 bg-white border-slate-200 py-2 px-4 rounded-md hover:bg-slate-400">
+                              <button  className="border-2 bg-white border-slate-200 py-2 px-4 rounded-md hover:bg-slate-400">
                                 Source Code
                               </button>
                             </div>
@@ -289,12 +289,12 @@ export default function Showcase() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div>
-          <div class="py-4">
+          <div className="py-4">
             <div
-              class="shadow-lg group container  rounded-md bg-white  max-w-sm flex justify-center items-center  mx-auto content-div"
+              className="shadow-lg group container  rounded-md bg-white  max-w-sm flex justify-center items-center  mx-auto content-div"
               style={{
                 backgroundImage: `url(${bg.src})`,
                 backgroundRepeat: `no-repeat`,
@@ -306,24 +306,24 @@ export default function Showcase() {
             >
               <div>
                 <div
-                  class="w-full image-cover rounded-t-md"
+                  className="w-full image-cover rounded-t-md"
                   style={{ height: `260px` }}
                 >
-                  <div class="p-2 m-4 w-16 h-16 text-center bg-gray-700 rounded-full text-white float-right fd-cl group-hover:opacity-25">
-                    <span class="text-base tracking-wide  font-bold border-b border-white font-sans">
+                  <div className="p-2 m-4 w-16 h-16 text-center bg-gray-700 rounded-full text-white float-right fd-cl group-hover:opacity-25">
+                    <span className="text-base tracking-wide  font-bold border-b border-white font-sans">
                       {" "}
                       12
                     </span>
-                    <span class="text-xs tracking-wide font-bold uppercase block font-sans">
+                    <span className="text-xs tracking-wide font-bold uppercase block font-sans">
                       April
                     </span>
                   </div>
                 </div>
-                <div class="py-8 px-4 bg-white  rounded-b-md fd-cl group-hover:opacity-25">
-                  <span class="block text-lg text-gray-800 font-bold tracking-wide">
+                <div className="py-8 px-4 bg-white  rounded-b-md fd-cl group-hover:opacity-25">
+                  <span className="block text-lg text-gray-800 font-bold tracking-wide">
                     Project 1
                   </span>
-                  <span class="block text-gray-600 text-sm">
+                  <span className="block text-gray-600 text-sm">
                     Vivamus ac ligula sit amet erat luctus laoreet ac quis
                     ligula. Donec bibendum faucibus purus eget cursus. Proin
                     enim ante, scelerisque vel sem sit amet, ultrices mollis
@@ -332,17 +332,17 @@ export default function Showcase() {
                   </span>
                 </div>
               </div>
-              <div class="absolute opacity-0 fd-sh group-hover:opacity-100 ">
+              <div className="absolute opacity-0 fd-sh group-hover:opacity-100 ">
                 <div className="h-full w-full flex-col justify-end ">
-                  <div className="">
-                    <span class="text-3xl font-bold text-white tracking-wider leading-relaxed font-sans  w-full">
+                  <div>
+                    <span className="text-3xl font-bold text-white tracking-wider leading-relaxed font-sans  w-full">
                       Project 1
                     </span>
-                    <div class="pt-8 text-center space-x-4">
-                      <button class="border-2 bg-white border-slate-200 py-2 px-4 rounded-md hover:bg-slate-400">
+                    <div className="pt-8 text-center space-x-4">
+                      <button className="border-2 bg-white border-slate-200 py-2 px-4 rounded-md hover:bg-slate-400">
                         Preview
                       </button>
-                      <button class="border-2 bg-white border-slate-200 py-2 px-4 rounded-md hover:bg-slate-400">
+                      <button className="border-2 bg-white border-slate-200 py-2 px-4 rounded-md hover:bg-slate-400">
                         Source Code
                       </button>
                     </div>
@@ -373,8 +373,8 @@ export default function Showcase() {
                   >
                     <motion.path
                       className={`fill-current text-slate-500 `}
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                       d="M15.59 14.37a6 6 0 01-5.84 7.38v-4.8m5.84-2.58a14.98 14.98 0 006.16-12.12A14.98 14.98 0 009.631 8.41m5.96 5.96a14.926 14.926 0 01-5.841 2.58m-.119-8.54a6 6 0 00-7.381 5.84h4.8m2.581-5.84a14.927 14.927 0 00-2.58 5.84m2.699 2.7c-.103.021-.207.041-.311.06a15.09 15.09 0 01-2.448-2.448 14.9 14.9 0 01.06-.312m-2.24 2.39a4.493 4.493 0 00-1.757 4.306 4.493 4.493 0 004.306-1.758M16.5 9a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z"
                       variants={icon}
                       initial="hidden"
@@ -403,8 +403,8 @@ export default function Showcase() {
                   >
                     <motion.path
                       className={`fill-current text-slate-500 `}
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                       d="M15.59 14.37a6 6 0 01-5.84 7.38v-4.8m5.84-2.58a14.98 14.98 0 006.16-12.12A14.98 14.98 0 009.631 8.41m5.96 5.96a14.926 14.926 0 01-5.841 2.58m-.119-8.54a6 6 0 00-7.381 5.84h4.8m2.581-5.84a14.927 14.927 0 00-2.58 5.84m2.699 2.7c-.103.021-.207.041-.311.06a15.09 15.09 0 01-2.448-2.448 14.9 14.9 0 01.06-.312m-2.24 2.39a4.493 4.493 0 00-1.757 4.306 4.493 4.493 0 004.306-1.758M16.5 9a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z"
                       variants={icon}
                       initial="hidden"
@@ -433,8 +433,8 @@ export default function Showcase() {
                   >
                     <motion.path
                       className={`fill-current text-slate-500 `}
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                       d="M15.59 14.37a6 6 0 01-5.84 7.38v-4.8m5.84-2.58a14.98 14.98 0 006.16-12.12A14.98 14.98 0 009.631 8.41m5.96 5.96a14.926 14.926 0 01-5.841 2.58m-.119-8.54a6 6 0 00-7.381 5.84h4.8m2.581-5.84a14.927 14.927 0 00-2.58 5.84m2.699 2.7c-.103.021-.207.041-.311.06a15.09 15.09 0 01-2.448-2.448 14.9 14.9 0 01.06-.312m-2.24 2.39a4.493 4.493 0 00-1.757 4.306 4.493 4.493 0 004.306-1.758M16.5 9a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z"
                       variants={icon}
                       initial="hidden"
