@@ -9,9 +9,6 @@ function ProgressLayout({ children }) {
         </div>
         <div className="flex justify-center space-x-4 ">
           <div className="my-12 grid gap-x-8 gap-y-5 grid-cols-2 md:grid-cols-3">
-            <div className="flex gap-1 items-center">
-              ❌ DataTable : react-data-table-component
-            </div>
             <div className="flex gap-1 items-center">❌ Form : formik</div>
             <div className="flex gap-1 items-center">
               ❌ Query : Tanstack Query
@@ -24,6 +21,13 @@ function ProgressLayout({ children }) {
             <div className="flex gap-1 items-center">❌ Import Excel</div>
             <div className="flex gap-1 items-center">❌ Datetime Picker</div>
             <div className="flex gap-1 items-center">❌ Select with Search</div>
+          </div>
+        </div>
+        <div className="w-full flex justify-center text-center py-2">
+          <div className="flex gap-1 items-center">
+            ❌ React Basic : UseState, UseEffect, RenderList , Conditional
+            Render,State: A Component&apos;s
+            Memory,useMemo,useContext,useRef,APIs Lazy
           </div>
         </div>
       </div>
