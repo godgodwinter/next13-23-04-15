@@ -18,6 +18,14 @@ function QueryLayout({ children }) {
             Documentation
           </a>
           <a
+            href="https://tanstack.com/query/latest/docs/react/examples/react/simple"
+            className="btn btn-primary"
+            target={`_blank`}
+          >
+            {" "}
+            Default Example
+          </a>
+          <a
             href="https://api.github.com/users/godgodwinter"
             className="btn btn-primary"
             target={`_blank`}
