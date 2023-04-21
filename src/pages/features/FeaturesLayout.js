@@ -101,17 +101,10 @@ function FeaturesLayout({ children }) {
               </div>
             </Link>
             <Link href="/features/pdf" className="flex gap-1 items-center">
-              <svg
-                width="19"
-                height="19"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="m6 9 3 3 5-5" stroke="#A2724E" strokeWidth="2"></path>
-              </svg>
+              ❌
               <div>
                 <span className="font-bold">
-                  PDF Generator & PDF Viewer : react-pdf/renderer
+                  PDF Generator & PDF Viewer : react-pdf/renderer [BUG]
                 </span>
               </div>
             </Link>
