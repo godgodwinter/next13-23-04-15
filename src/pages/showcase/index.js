@@ -33,7 +33,7 @@ export default function Showcase() {
         </div>
         <div className="px-10 flex justify-center">
           <div className="w-full">
-            <div className="grid grid-cols-3 space-x-3">
+            <div className="grid  grid-cols-1 md:grid-cols-3  space-x-3">
               <div className="grid-cols-1 border-2 border-slate-100 rounded-lg p-10 ">
                 <div className="prose flex flex-col justify-between">
                   <div>
@@ -97,7 +97,7 @@ export default function Showcase() {
 
         <div className="px-10 flex justify-center">
           <div className="w-10/12">
-            <div className="grid grid-cols-3 space-x-1">
+            <div className="grid  grid-cols-1 md:grid-cols-3  space-x-1">
               <div className="grid-cols-1">
                 <div>
                   <div className="py-4">
