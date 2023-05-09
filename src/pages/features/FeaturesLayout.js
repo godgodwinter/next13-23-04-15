@@ -108,6 +108,19 @@ function FeaturesLayout({ children }) {
                 </span>
               </div>
             </Link>
+            <Link href="/features/form" className="flex gap-1 items-center">
+              <svg
+                width="19"
+                height="19"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="m6 9 3 3 5-5" stroke="#A2724E" strokeWidth="2"></path>
+              </svg>
+              <div>
+                <span className="font-bold">Form : react-hook-form</span>
+              </div>
+            </Link>
           </div>
         </div>
       </div>
