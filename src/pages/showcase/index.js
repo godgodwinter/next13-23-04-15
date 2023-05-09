@@ -21,13 +21,11 @@ export default function Showcase() {
       <Layout>
         <div className="w-full  flex justify-center">
           <div className="prose prose-xl text-center py-10">
-            <h1 className="capitalize">
-              The web framework <br /> for when it matters
-            </h1>
+            <h1 className="capitalize">Showcase</h1>
             <h5>
-              Peerless performance, efficiency and developer experience.
-              <br></br> Next.js is trusted by some of the biggest names of the
-              web.
+              Step into our world of creativity and innovation. Our showcase
+              page features a variety of projects that demonstrate our expertise
+              and passion for delivering exceptional results
             </h5>
           </div>
         </div>

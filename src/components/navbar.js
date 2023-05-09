@@ -43,9 +43,6 @@ function Navbar() {
             <Link href="/book">Handbook</Link>
           </li>
           <li>
-            <Link href="/cv">Resume</Link>
-          </li>
-          <li>
             <Link href="/showcase">Showcase</Link>
           </li>
           <li>
@@ -53,6 +50,9 @@ function Navbar() {
           </li>
           <li>
             <Link href="/progress">Progress</Link>
+          </li>
+          <li>
+            <Link href="/cv">Resume</Link>
           </li>
           <li>
             <Link href="/about">About</Link>
