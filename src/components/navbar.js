@@ -40,6 +40,9 @@ function Navbar() {
             <Link href="/">Home</Link>
           </li>
           <li>
+            <Link href="/book">Handbook</Link>
+          </li>
+          <li>
             <Link href="/cv">Resume</Link>
           </li>
           <li>
